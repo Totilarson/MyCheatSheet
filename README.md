@@ -12,4 +12,4 @@ I downloaded/installed Git from https://git-scm.com/download/win and accepted al
 # Make a develop branch and push it 
 - command line: **git checkout -b develop** makes develope branch (locally) and you will be in this branch now
 - command line: **git push origin develop**  this pushes the develop branch to github.com
-- commandline: **git checkout master** or **git checkout develop** are used to switch the branches you are working in. 
+- command line: **git checkout master** or **git checkout develop** are used to switch the branches you are working in. 
