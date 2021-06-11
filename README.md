@@ -17,4 +17,12 @@ I downloaded/installed Git from https://git-scm.com/download/win and accepted al
 # Add files or edit a file to a git project and push it 
 - command line: **git add <file name>** adds file locally
 - command line: **git commit -m "add message"**  this locks the change locally
-- command line: **git push** pushes the chagnes to github.com
+- command line: **git push -u origin develop** pushes the chagnes to github.com
+  
+- commandline: ** git fetch origin  ***
+  
+# make changes to corepytools on Pypi
+-  **python setup.py sdist bdist_wheel**
+-  **pip install –e .**
+-  **Twine upload dist/* **
+  
