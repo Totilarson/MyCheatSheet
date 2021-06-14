@@ -34,5 +34,5 @@
 # make changes to corepytools on Pypi
 -  **python setup.py sdist bdist_wheel**
 -  **pip install –e .**
--  **Twine upload dist/* **
+-  Twine upload dist/*
   
