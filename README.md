@@ -29,7 +29,7 @@
 - command line: **git commit -m "add message"**  this locks the change locally
 - command line: **git push -u origin develop** pushes the chagnes to github.com
   
-- commandline: ** git fetch origin  ***
+- commandline: ** git fetch origin  **
   
 # make changes to corepytools on Pypi
 -  **python setup.py sdist bdist_wheel**
