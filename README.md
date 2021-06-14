@@ -14,11 +14,11 @@
 # Clone a repo on a local machine
 - navigate to local folder you want the repo stored (I stick with gitrepos as a folder name)
 - in the git repo you want to clone select the **Green code button** and copy the clone url
-- command line: **git clone https://github.com/Totilarson/CorePy.git** will copy the whole repository locally and puts it ion a folder called Corepy
+- command line: **git clone https://github.com/Totilarson/CorePy.git** will copy the whole repository locally and puts it in a folder called Corepy
 - command line: **git branch** within the new repo will show you how many branches there are. Should be one: master that has a star. Star means it is the one you are working 
 
 # Make a develop branch and push it 
-- command line: **git checkout -b develop** makes develope branch (locally) and you will be in this branch now
+- command line: **git checkout -b develop** makes develop branch (locally) and you will be in this branch now
 - command line: **git push origin develop**  this pushes the develop branch to github.com
 - command line: **git checkout master** or **git checkout develop** are used to switch the branches you are working in. 
 **At this point the CorePy repo is cloned locally and you can work from it in the develop branch**
