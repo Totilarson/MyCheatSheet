@@ -32,6 +32,7 @@
 - commandline: **git fetch origin**
   
 # make changes to corepytools on Pypi
+- need to install twin **pip install twine** and wheel **pip install wheel**
 -  **python setup.py sdist bdist_wheel**
 -  **pip install –e .**
 -  Twine upload dist/*
