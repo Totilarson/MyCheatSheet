@@ -1,3 +1,11 @@
+# setting up Python
+- download most recent version at https://www.python.org/ and **select 'Add Python to environment variables**. This makes python available in command line 
+- from cmd: **pip list** shows all the Python packages installed. **recommmend 'pip install numpy', 'pip install pandas', 'pip install seaborn', 'pip install corepytools'
+- I prefer the Spyder IDE. https://www.spyder-ide.org/. It follows the Matlab interface and is useful for science.  **Need to set Python interpreter and Ennvironment path**
+    - In Spyder: Tools -> Preferences -> Python interpreter -> "Use the following Python Interpreter"
+    - From the Start menu navigate to Python, right click -> More - Open file location. Copy the file location, paste it in the path. I had to add python.exe. This syncs Spyder        with Python accessed from commandline.
+    - In Spyder: Tools -> Preferences -> PYTHONPATH manager -> I navigated to a 'site-packages' folder where all the pip installed packages were going, and added that.
+
 # Notes for my Git workflow
 - great resource: https://www.youtube.com/watch?v=0fKg7e37bQE
 
