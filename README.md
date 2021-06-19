@@ -30,7 +30,9 @@
 - command line: **git push -u origin develop** pushes the chagnes to github.com
   
 - commandline: **git fetch origin**
-  
+- **git ls-files** lists all the tracked files in the repofirkder
+- **git status** lists all the untracked files in the repofirkder
+   
 # make changes to corepytools on Pypi
 - need to install twin **pip install twine** and wheel **pip install wheel**
 -  **python setup.py sdist bdist_wheel**
