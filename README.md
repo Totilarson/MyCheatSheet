@@ -35,9 +35,9 @@ pip install sklearn
 # Pushing edits from local github repo to github.com
 - command line: `git add <file name>` adds file locally
 - command line: `git commit -m "add message"`  this locks the change locally
-- command line: `git push -u origin develop` pushes the chagnes to github.com
+- command line: `git push -u origin develop` pushes the changes to github.com
 
-- commandline: `git fetch origin`
+- command line: `git fetch origin`
 - `git ls-files` lists all the tracked files in the repofirkder
 - `git status` lists all the untracked files in the repofirkder
 
