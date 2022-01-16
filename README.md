@@ -33,9 +33,9 @@ pip install sklearn
 
 
 # Pushing edits from local github repo to github.com
-- command line: `git add <file name>` adds file locally
+- command line: `git add <file name>` adds file locally. Do this from folder /CorePycodes, for example
 - command line: `git commit -m "add message"`  this locks the change locally
-- command line: `git push -u origin develop` pushes the changes to github.com
+- command line: `git push -u origin develop` or 'git push -u origin master' pushes local changes to remote to github.com
 
 - command line: `git fetch origin`
 - `git ls-files` lists all the tracked files in the repofirkder
