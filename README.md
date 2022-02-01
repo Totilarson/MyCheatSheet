@@ -11,11 +11,12 @@ pip install corepytools
 pip install sklearn
 ```
 # Setting up Spyder IDE.
+```
     - https://www.spyder-ide.org/. install spyder. I use v.5.0.5 https://github.com/spyder-ide/spyder/releases/tag/v5.0.5
     - Set Python interpreter: Tools -> Preferences -> Python Interpreter "Use the following interpreter"
     - From the Start menu navigate to Python, right click -> More - Open file location. Copy the file location, paste it in the path. I had to add python.exe. This syncs Spyder        with Python accessed from commandline.
     - In Spyder: Tools -> Preferences -> PYTHONPATH manager -> I navigated to a 'site-packages' folder where all the pip installed packages were going, and added that.
-
+```
 # Notes for my Git workflow
 - great resource: https://www.youtube.com/watch?v=0fKg7e37bQE
 - I downloaded/installed Git from https://git-scm.com/download/win and accepted all the standard stuff
