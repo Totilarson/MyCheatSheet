@@ -56,5 +56,3 @@ pip install sklearn
 -  `python setup.py sdist bdist_wheel`
 -  `pip install –e .`
 -  Twine upload dist/*
--  Note: recevied error and it was uplaoding older verion. I used this command:
--  twine upload --skip-existing dist/*
