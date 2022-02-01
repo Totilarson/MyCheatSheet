@@ -1,5 +1,6 @@
 # Setting up Python
-- download most recent version at https://www.python.org/ and **select 'Add Python to environment variables**. This makes python available in command line
+-  https://www.python.org/ I am using Python 3.9.5 https://www.python.org/downloads/release/python-395/
+-  and **select 'Add Python to environment variables**. This makes python available in command line
 - from cmd: `pip list` shows all the Python packages
 installed. **recommmend**
 ```
@@ -9,8 +10,9 @@ pip install seaborn
 pip install corepytools
 pip install sklearn
 ```
-- I prefer the Spyder IDE. https://www.spyder-ide.org/. `pip install spyder`. It follows the Matlab interface and is useful for science.  **Need to set Python interpreter and Ennvironment path**
-    - In Spyder: Tools -> Preferences -> Python interpreter -> select "Use the following Python Interpreter"
+# Setting up Spyder IDE.
+    - https://www.spyder-ide.org/. install spyder. I use v.5.0.5 https://github.com/spyder-ide/spyder/releases/tag/v5.0.5
+    - Set Python interpreter: Tools -> Preferences -> Python Interpreter "Use the following interpreter"
     - From the Start menu navigate to Python, right click -> More - Open file location. Copy the file location, paste it in the path. I had to add python.exe. This syncs Spyder        with Python accessed from commandline.
     - In Spyder: Tools -> Preferences -> PYTHONPATH manager -> I navigated to a 'site-packages' folder where all the pip installed packages were going, and added that.
 
