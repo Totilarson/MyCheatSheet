@@ -25,6 +25,8 @@ pip install sklearn
 - great resource: https://www.youtube.com/watch?v=0fKg7e37bQE
 - I downloaded/installed Git from https://git-scm.com/download/win and accepted all the standard stuff
 - in cmd environment type `git --version` to make sure it is installed correctly
+- 'git config core.editor notepad' - changes the editor to notepad
+- 'wq' closes down the dos editor if it opens up
 ```
 # Clone a repo on a local machine
 ```
