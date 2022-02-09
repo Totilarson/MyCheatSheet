@@ -37,6 +37,7 @@ pip install sklearn
 ```
 - command line: `git checkout -b develop` makes develop branch (locally) and you will be in this branch now
 - command line: `git push -u origin develop`  this pushes the develop branch to github.com -u is ony used the first time
+- afterwards, 'git push' is sufficient
 - command line: `git checkout master` or `git checkout develop` are used to switch the branches you are working in.
 **At this point the CorePy repo is cloned locally and you can work from it in the develop branch**
 ```
