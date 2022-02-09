@@ -36,19 +36,24 @@ pip install sklearn
 # Make a develop branch and push it
 ```
 - command line: `git checkout -b develop` makes develop branch (locally) and you will be in this branch now
-- command line: `git push origin develop`  this pushes the develop branch to github.com
+- command line: `git push -u origin develop`  this pushes the develop branch to github.com -u is ony used the first time
 - command line: `git checkout master` or `git checkout develop` are used to switch the branches you are working in.
 **At this point the CorePy repo is cloned locally and you can work from it in the develop branch**
 ```
 
 # Pushing edits from local github repo to github.com
-- command line: `git add <file name>` adds file locally. Do this from folder /CorePycodes, for example
-- command line: `git commit -m "add message"`  this locks the change locally
-- command line: `git push -u origin develop` or 'git push -u origin master' pushes local changes to remote to github.com
+My work flow is to make changes on develop, then merge with master and push to remote
 
-- command line: `git fetch origin`
-- `git ls-files` lists all the tracked files in the repofirkder
-- `git status` lists all the untracked files in the repofirkder
+- 'git branch -a' to make sure you are working on develop.
+- 'git checkout develop' to chagne to develop branch
+- 'git status' to list changed tracked and changed untracked files. Untracked files will not be pushed
+- 'git commit -a' to commit any changes from the develop branch
+- 'git checkout master' to switch to master so that you can merge changes from develop
+- 'git diff develop' to look at differences between develop and master.....type 'wq' if it is stuck in editor
+- 'git merge develop' to bring the changes from develop to master
+- 'git push' to send everything to remote
+
+
 
 # make changes to corepytools on Pypi
 - need to install twin `pip install twine` and wheel `pip install wheel`
