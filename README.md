@@ -48,7 +48,7 @@ pip install sklearn
 My work flow is to make changes on develop, then merge with master and push to remote
 
 - 'git branch -a' to make sure you are working on develop.
-- 'git checkout develop' to chagne to develop branch
+- 'git checkout develop' to change to develop branch
 - 'git status' to list changed tracked and changed untracked files. Untracked files will not be pushed
 - 'git commit -a' to commit any changes from the develop branch
 - 'git push' to update origin/develop
