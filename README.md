@@ -13,9 +13,9 @@ pip install sklearn
 
 # Working in virtual environments
 ```
-- mkdir environments
-- python -m venv project_env "
-- project_env\Scripts\activate.bat - this activates the virtual environment
+- mkdir venv
+- python -m venv venv"
+- venv\Scripts\activate - this activates the virtual environment
 - pip freeze > requirements.txt
 - deactivate
 - pip install -r requirements.txt
