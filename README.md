@@ -77,3 +77,7 @@ My work flow is to make changes on develop, then merge with master and push to r
 -  `python setup.py sdist bdist_wheel`
 -  `pip install –e .`
 -  Twine upload dist/*
+
+# make a list of all files in a directory
+- found it easier to do this with dos:
+- navigate to the folder and type: dir /b>filelist.txt
