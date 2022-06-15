@@ -63,6 +63,7 @@ My work flow is to make changes on develop, then merge with master and push to r
 - 'git checkout develop' to change to develop branch
 - 'git status' to list changed tracked and changed untracked files. Untracked files will not be pushed
 - 'git commit -a' to commit any changes from the develop branch
+- 'git commit -m "notes" filename' to commit one file
 - 'git push' to update origin/develop
 - 'git checkout master' to switch to master so that you can merge changes from develop
 - 'git diff develop' to look at differences between develop and master.....type 'wq' if it is stuck in editor
